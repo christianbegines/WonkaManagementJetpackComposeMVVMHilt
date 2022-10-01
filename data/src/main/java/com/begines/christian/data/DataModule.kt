@@ -30,7 +30,7 @@ class DataModule {
 
     @Singleton
     @Provides
-    fun provideWorkerRepositorygit (
+    fun provideWorkerRepository(
         dataSource: WorkerDataSource,
         workerMapper: WorkerMapper,
         filterMapper: FilterMapper
