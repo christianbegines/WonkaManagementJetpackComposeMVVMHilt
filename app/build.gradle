@@ -71,6 +71,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1'
     // UI Tests
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4:1.2.1'
+
     implementation project(path: ':data')
     implementation project(path: ':domain')
     implementation project(path: ':networkdatasource')
